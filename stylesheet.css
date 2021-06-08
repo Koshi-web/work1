@@ -1,0 +1,369 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* この下からcss */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Relevant Normal","Relevant-Normal","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: normal;
+    line-height: 1.3619;
+    color: #232734;
+    background: #eeeeed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  height: 240px;
+  width: 1296px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 46px;
+}
+
+.top-name{
+    font-size: 34px;
+    float: left;
+    margin-left: 40px;
+}
+
+.top-name a{
+    text-decoration: none;
+    color: #232734;
+}
+
+.top-menu a{
+    text-decoration: none;
+    color: #a79d94;
+}
+
+.top-menu{
+    font-size: 19px;
+    float: right;
+    width: 686px;
+    padding: 10px 52px 0px 52px;
+    margin-bottom: 100px;
+    margin-top: 8px;
+}
+
+.top-li{
+    list-style: none;
+    float: left;
+    padding-right: 34px;
+}
+
+.top-p{
+    color: #232734;
+    font-size: 34px;
+    display: inline-block;
+    float: right;
+    margin-right: 88px;
+}
+
+.main-wrapper{
+    width: 1294px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.big-img{
+  width: 1294px;
+  height: 726px;
+  margin-bottom: 32px;
+}
+
+.small-left{
+    float: left;
+    width: 664px;
+    height: 628px;
+}
+
+.main-h1{
+    color: #232734;
+    font-size: 34px;
+    width: 361px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 186px;
+    margin-bottom: 58px;
+}
+
+.main-p{
+    width: 361px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-p2{
+    width: 362px;
+    margin: auto;
+    margin-top: 240px;
+}
+
+.main-small{
+    height: 628px;
+}
+
+.small-p{
+    margin-bottom: 32px;
+}
+
+.small-img{
+  height: 628px;
+  width: 628px;
+  margin-top: 0;
+  padding-top: 0;
+  object-fit: cover;
+}
+
+
+.small-p2{
+    float: right;
+    margin-bottom: 32px;
+    margin-top: 22px;
+}
+
+/* ここから後半 */
+
+.second-main{
+    height: 2624px;
+    background-color: #111d35;
+}
+
+.second-main h2{
+    font-size: 34px;
+    color: #ddddda;
+    padding-top: 43px;
+    padding-left: 34px;
+    padding-bottom: 130px;
+}
+
+.second-main h3{
+    color: #a79d94;
+    font-size: 19px;
+}
+
+.second-main p{
+    color: #f9f9f8;
+    font-size: 19px;
+}
+
+.intro1{
+    width: 580px;
+    height: 536px;
+    float: left;
+}
+
+.intro1 h3{
+    width: 350px;
+    padding: 110px 300px 24px 118px;
+}
+
+.intro1 p{
+    width: 350px;
+    padding-left: 118px;
+}
+
+.person1 img{
+    width: 684px;
+    height: auto;
+}
+
+.intro2{
+    height: 626px;
+    width: 528px;
+    float: right;
+}
+
+.intro2 h3{
+    padding: 196px 336px 24px 108px;
+}
+
+.intro2 p{
+    width: 342px;
+    padding-left: 108px;
+}
+
+.person2 img{
+    width: 520px;
+    height: auto;
+    padding-left: 268px;
+}
+
+.intro3{
+    width: 578px;
+    height: 534px;
+    float: left;
+}
+
+.intro3 h3{
+    padding: 196px 336px 24px 108px;
+}
+
+.intro3 p{
+    width: 342px;
+    padding-left: 108px;
+}
+
+.person3 img{
+    width: 534px;
+    height: auto;
+    padding-right: 252px;
+}
+
+.last-person{
+    display: flex;
+    padding-left: 80px;
+    margin-top: 156px;
+}
+
+.last-person h3{
+    padding-top: 40px;
+}
+
+.last{
+    width: 354px;
+    padding-left: 34px;
+}
+
+.last-person img{
+    width: 354px;
+    height: auto;
+}
+
+footer {
+    height: 220px;
+    background-color: #111d35;
+}
+
+.footer-container{
+    width: 1296px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #a79d94;
+}
+
+.menu{
+    float: left;
+    width: 330px;
+    height: 172px;
+    margin-top: 40px;
+}
+
+.menu p{
+    color: #a79d94;
+    margin-top: 82px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #a79d94;
+}
+
+.menu li{
+    list-style: none;
+}
